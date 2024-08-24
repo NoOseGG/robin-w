@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* text */
+
+  --label-1: normal normal 500 117px "Sen", sans-serif;
+  --heading-1: normal normal 700 78px "Sen", sans-serif;
+  --heading-2: normal normal 700 55px "Sen", sans-serif;
+  --heading-3: normal normal 700 24px "Sen", sans-serif;
+  --heading-4: normal normal 700 18px "Sen", sans-serif;
+  --heading-5: normal normal 700 16px "Sen", sans-serif;
+  --body-1: normal normal 400 18px "Sen", sans-serif;
+  --body-2: normal normal 400 16px "Sen", sans-serif;
+  --overline: normal normal 700 16px "Sen", sans-serif;
+  --button: normal normal 700 18px "Sen", sans-serif;
+
+  /* colors */
+  --base: #000000;
+  --level-1: #181823;
+  --light-gray: #deecf9;
+  --dark-gray: #c7e0f4;
+  --text: #ffffff;
+  --primary: #5221e6;
+  --green-accent: #3cc74e;
+  --pink-accent: #e95d90;
+  --peach-accent: #fff3e4;
+  --violet-accent: #fbe4ff;
+}
+
+body {
+  background-color: var(--base);
+
+  width: 100%;
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+  color: var(--text);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 100%;
+}
